@@ -2,7 +2,7 @@ let fs = require('fs')
 //CDN
 build({
     entryPoints: [`builds/cdn.js`],
-    outfile: `dist/plugin.min.js`,
+    outfile: `dist/moment.min.js`,
     bundle: true,
     minify: true,
     sourcemap: false,
@@ -12,7 +12,7 @@ build({
 //Module
 build({
     entryPoints: [`builds/module.js`],
-    outfile: `dist/plugin.esm.js`,
+    outfile: `dist/moment.esm.js`,
     bundle: true,
     bundle: true,
     platform: 'neutral',
@@ -20,7 +20,7 @@ build({
 })
 build({
     entryPoints: [`builds/module.js`],
-    outfile: `dist/plugin.cjs.js`,
+    outfile: `dist/moment.cjs.js`,
     bundle: true,
     target: ['node10.4'],
     platform: 'node',

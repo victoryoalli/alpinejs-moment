@@ -1,15 +1,16 @@
 {
-  "name": "@victoryoalli/alpinejs-plugin-blueprint",
+  "name": "@victoryoalli/alpinejs-moment",
   "version": "1.0.0",
-  "description": "Super alpine.js plugin",
-  "main": "dist/plugin.cjs.js",
-  "module": "dist/plugin.esm.js",
-  "unpkg": "dist/plugin.min.js",
+  "description": "An alpine.js magic helper plugin wrapper for moment.js",
+  "main": "dist/moment.cjs.js",
+  "module": "dist/moment.esm.js",
+  "unpkg": "dist/moment.min.js",
   "keywords": [],
   "author": "Victor Yoalli",
   "license": "MIT",
   "dependencies": {
-    "esbuild": "^0.12.22"
+    "esbuild": "^0.12.22",
+    "moment": "^2.29.1"
   },
   "scripts": {
     "build": "node scripts/build.js"
