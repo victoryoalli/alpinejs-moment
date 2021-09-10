@@ -10,7 +10,7 @@ Usage
 
 Example:
 
-Using (Alpines JS Timeout Plugin)[] you could build a clock really ease.
+Using [Alpines JS Timeout Plugin][https://github.com/victoryoalli/alpinejs-timeout] you could build a clock really ease.
 
 ```js
 <div  x-data x-timeout:1000="$el.innerText=$moment().format('LTS')"></div>
